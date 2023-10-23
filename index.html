@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIFA Player Rating Predictor</title>
+</head>
+<body>
+    <h1>FIFA Player Rating Predictor</h1>
+    <form action="/predict" method="post">
+        <label for="movement_reactions">Movement & Reactions:</label>
+        <input type="number" name="movement_reactions" id="movement_reactions" required>
+        <br><br>
+        <label for="passing">Passing:</label>
+        <input type="number" name="passing" id="passing" required>
+        <br><br>
+        <label for="mentality_composure">Mentality & Composure:</label>
+        <input type="number" name="mentality_composure" id="mentality_composure" required>
+        <br><br>
+        <label for="dribbling">Dribbling:</label>
+        <input type="number" name="dribbling" id="dribbling" required>
+        <br><br>
+        <label for="potential">Potential:</label>
+        <input type="number" name="potential" id="potential" required>
+        <br><br>
+        <label for="release_clause_eur">Release Clause (in EUR):</label>
+        <input type="number" name="release_clause_eur" id="release_clause_eur" required>
+        <br><br>
+        <label for="wage_eur">Wage (in EUR):</label>
+        <input type="number" name="wage_eur" id="wage_eur" required>
+        <br><br>
+        <label for="value_eur">Value (in EUR):</label>
+        <input type="number" name="value_eur" id="value_eur" required>
+        <br><br>
+        <label for="power_shot_power">Power & Shot Power:</label>
+        <input type="number" name="power_shot_power" id="power_shot_power" required>
+        <br><br>
+        <input type="submit" value="Predict Rating">
+    </form>
+</body>
+</html>
